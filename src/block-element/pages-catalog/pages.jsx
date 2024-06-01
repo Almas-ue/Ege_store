@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./pages.scss";
 
 function Pages() {
@@ -12,13 +13,13 @@ function Pages() {
         </div>
         <div className="group__catalog d-flex">
           <div className="big_card">
-            <a href="#" className="catalog_big shadow-big d-block">
+            <a href="./Glav" className="catalog_big shadow-big d-block">
               <h3 className="title_card-name title_name ">
                 Строительный отделочный <br /> инструмент
               </h3>
               <div className="card_image">
                 <img
-                  src="./public/first_page/pages/stroi.svg"
+                  src="./first_page/pages/stroi.svg"
                   alt="stroi"
                   className="image_card"
                 />

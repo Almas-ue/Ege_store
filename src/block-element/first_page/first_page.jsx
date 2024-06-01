@@ -1,15 +1,24 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import Pages from "../pages-catalog/pages.jsx";
 import Work from "../work/work.jsx";
-import "./first_page.scss";
+import Glav from "./../glav/Glav.jsx";
 import Popular from "../popular-catalog/popular.jsx";
 import New_catalog from "../new-catalog/new_catalog.jsx";
+import "./first_page.scss";
 
 function First_page() {
   return (
     <>
+      <Router>
+        <Routes>
+          <Route path="/Glav" element={<Glav />} />
+        </Routes>
+      </Router>
+
       <Header />
       <main className="main">
         <section className="hero">
