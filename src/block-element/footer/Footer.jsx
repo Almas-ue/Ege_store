@@ -9,11 +9,11 @@ function Footer() {
           <div className="footer_top">
             <div className="footer_info">
               <div className="logo">
-                <img src="public/logo/logo.svg" alt="Логотип" />
+                <img src="logo/logo.svg" alt="Логотип" />
               </div>
               <div className="contact">
                 <div className="contact_info">
-                  <img src="public/footer/Icon.svg" alt="call" />
+                  <img src="footer/Icon.svg" alt="call" />
                   <div className="text_info">
                     <p className="contact_call">Контактный телефон</p>
                     <p className="info_contact white">
@@ -22,7 +22,7 @@ function Footer() {
                   </div>
                 </div>
                 <div className="contact_info">
-                  <img src="public/footer/sms.svg" alt="mail" />
+                  <img src="footer/sms.svg" alt="mail" />
                   <div className="text_info">
                     <p className="contact_call">Электронная почта</p>
                     <p className="info_contact white">

@@ -41,13 +41,13 @@ function Glav() {
                   <p className="show_text">Вид</p>
                   <button className="show_wrap">
                     <img
-                      src="public/setting_content_product/wrap.svg"
+                      src="setting_content_product/wrap.svg"
                       alt="wrap_show"
                     />
                   </button>
                   <button className="show_column">
                     <img
-                      src="public/setting_content_product/column.svg"
+                      src="setting_content_product/column.svg"
                       alt="column_show"
                     />
                   </button>
@@ -73,7 +73,7 @@ function Glav() {
                       </svg>
                     </div>
                     <div className="image_product">
-                      <img src="./public/products/product.svg" alt="product" />
+                      <img src="./products/product.svg" alt="product" />
                     </div>
                     <h3 className="title_name_product">
                       Круг зачистной 125х6х22

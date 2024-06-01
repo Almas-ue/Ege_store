@@ -42,7 +42,7 @@ function Card() {
                 />
               </svg>
             </button>
-            <img src="./public/products/product.svg" alt="product" />
+            <img src="./products/product.svg" alt="product" />
           </div>
 
           <div className="card__info-text">

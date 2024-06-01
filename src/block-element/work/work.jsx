@@ -16,7 +16,7 @@ function Work() {
             </a>
           </div>
           <div className="work__block-image">
-            <img src="./public/work/man_stroi.svg" alt="man_stroi" />
+            <img src="./work/man_stroi.svg" alt="man_stroi" />
           </div>
         </a>
       </section>

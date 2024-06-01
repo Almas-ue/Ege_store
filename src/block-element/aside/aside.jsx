@@ -10,26 +10,26 @@ function Aside() {
           <ul className="list_category">
             <li className="item_category">
               <a href="#" className="link_category">
-                <img src="public/category/stroi.svg" alt="Стройматериалы" />{" "}
+                <img src="category/stroi.svg" alt="Стройматериалы" />{" "}
                 Стройматериалы
               </a>
             </li>
             <li className="item_category">
               <a href="#" className="link_category">
-                <img src="public/category/Instrument.svg" alt="Инструменты" />{" "}
+                <img src="category/Instrument.svg" alt="Инструменты" />{" "}
                 Инструменты
               </a>
             </li>
             <li className="item_category">
               <a href="#" className="link_category">
-                <img src="public/category/electric.svg" alt="Электрика" />{" "}
+                <img src="category/electric.svg" alt="Электрика" />{" "}
                 Электрика
               </a>
             </li>
             <li className="item_category">
               <a href="#" className="link_category">
                 <img
-                  src="public/category/Interier.svg"
+                  src="category/Interier.svg"
                   alt="Интерьер и отделка"
                 />{" "}
                 Интерьер и отделка

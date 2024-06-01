@@ -10,7 +10,7 @@ function Header() {
             <div className="header_top_first">
               <div className="icon">
                 <a href="#">
-                  <img src="public/logo/logo.svg" alt="Логотип" />
+                  <img src="logo/logo.svg" alt="Логотип" />
                 </a>
               </div>
               <nav className="nav">
@@ -35,18 +35,18 @@ function Header() {
             </div>
             <div className="header_top_second">
               <a href="tel:8965842929" className="tel_info">
-                <img src="public/header/Phone.svg" alt="Телефон" />
+                <img src="header/Phone.svg" alt="Телефон" />
                 <span className="num_phone">+7 (965) 084-29-29</span>
               </a>
               <a href="" className="heart-link">
                 <img
-                  src="public/header/heart.svg"
+                  src="header/heart.svg"
                   alt="Избранные"
                   className="heart"
                 />
               </a>
               <a href="" className="basket">
-                <img src="public/header/basket.svg" alt="Корзина" />
+                <img src="header/basket.svg" alt="Корзина" />
                 <span className="basket_text">Пусто</span>
               </a>
             </div>

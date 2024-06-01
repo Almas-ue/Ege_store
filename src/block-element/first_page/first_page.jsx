@@ -24,7 +24,7 @@ function First_page() {
         <section className="hero">
           <img
             className="hero_image"
-            src="./public/first_page/hero/male_hero.svg"
+            src="./first_page/hero/male_hero.svg"
             alt="hero_image"
           />
           <div className="container">
@@ -38,7 +38,7 @@ function First_page() {
             <div className="service__item">
               <div className="service__logo">
                 <img
-                  src="./public/first_page/info-service/Wall.svg"
+                  src="./first_page/info-service/Wall.svg"
                   alt="Wall"
                 />
               </div>
@@ -52,7 +52,7 @@ function First_page() {
             </div>
             <div className="service__item">
               <div className="service__logo">
-                <img src="./public/first_page/info-service/car.svg" alt="car" />
+                <img src="./first_page/info-service/car.svg" alt="car" />
               </div>
               <div className="service__text">
                 <p className="service__desc">
@@ -64,7 +64,7 @@ function First_page() {
             <div className="service__item">
               <div className="service__logo">
                 <img
-                  src="./public/first_page/info-service/like.svg"
+                  src="./first_page/info-service/like.svg"
                   alt="like"
                 />
               </div>

@@ -44,7 +44,7 @@ function Pages() {
             >
               <h3 className="title_name text_right">Эмали</h3>
               <div className="card_image">
-                <img src="./public/first_page/pages/emali.svg" alt="emali" />
+                <img src="./first_page/pages/emali.svg" alt="emali" />
               </div>
               <div className="card_block-swipe d-flex">
                 <p className="card_text_swipe page_desc">Перейти в каталог</p>
@@ -66,7 +66,7 @@ function Pages() {
                 Лакокрасочные <br /> материалы
               </h3>
               <div className="card_image">
-                <img src="./public/first_page/pages/kraski.svg" alt="kraski" />
+                <img src="./first_page/pages/kraski.svg" alt="kraski" />
               </div>
               <div className="card_block-swipe">
                 <p className="card_text_swipe page_desc">Перейти в каталог</p>
@@ -88,7 +88,7 @@ function Pages() {
                 Пены, клеи и <br /> герметики
               </h3>
               <div className="card_image">
-                <img src="./public/first_page/pages/klei.svg" alt="klei" />
+                <img src="./first_page/pages/klei.svg" alt="klei" />
               </div>
               <div className="card_block-swipe">
                 <p className="card_text_swipe page_desc">Перейти в каталог</p>
@@ -108,7 +108,7 @@ function Pages() {
             >
               <h3 className="title_name">Розетки и выключатели</h3>
               <div className="card_image">
-                <img src="./public/first_page/pages/socket.svg" alt="socket" />
+                <img src="./first_page/pages/socket.svg" alt="socket" />
               </div>
               <div className="card_block-swipe">
                 <p className="card_text_swipe page_desc">Перейти в каталог</p>
