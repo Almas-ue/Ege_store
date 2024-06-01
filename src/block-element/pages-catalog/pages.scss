@@ -1,0 +1,116 @@
+@import "./../../style/var.scss";
+
+.group-pages {
+    .group__list-pages {
+        justify-content: right;
+        gap: 15px;
+    }
+
+    .group__catalog {
+        margin-top: 15px;
+        gap: 30px;
+        justify-content: space-between;
+        .catalog_big {
+            position: relative;
+            height: 430px;
+            width: 420px;
+            overflow: hidden;
+
+            .title_card-name {
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+
+            .card_image {
+                overflow: hidden;
+                .image_card {
+                    position: absolute;
+                    z-index: -1;
+                    bottom: 0;
+
+                    transition: 0.5s;
+                }
+            }
+
+            &:hover {
+                .card_btn_swipe {
+                    background-color: $second_color;
+                    path {
+                        fill: #fff;
+                    }
+                }
+
+                .image_card {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    .catalog_group-small {
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .catalog_small {
+            position: relative;
+            overflow: hidden;
+
+            .title_name {
+                padding: 15px;
+            }
+
+            .card_image {
+                img {
+                    position: absolute;
+                    z-index: -1;
+                    bottom: 0;
+                    transition: 0.5s;
+                }
+            }
+
+            &:hover {
+                .card_btn_swipe {
+                    background-color: $second_color;
+                    path {
+                        fill: #fff;
+                    }
+                }
+
+                .card_image {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            &:nth-child(1) {
+                h3 {
+                    display: flex;
+                    justify-content: right;
+                }
+            }
+
+            &:nth-child(2) {
+                .card_image {
+                    display: flex;
+                    justify-content: right;
+                }
+
+                .card_block-swipe {
+                    left: 15px;
+                }
+            }
+
+            &:nth-child(3) {
+                .card_image {
+                    display: flex;
+                    justify-content: right;
+                }
+
+                .card_block-swipe {
+                    left: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import "./../../style/var.scss";
+
+.category {
+    .menu_category {
+        padding-bottom: 10px;
+        width: 310px;
+        .list_category {
+            .item_category {
+                padding: 12px 0;
+
+                .link_category {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: $second_text;
+                    }
+                }
+            }
+        }
+    }
+
+    .price_setting {
+        padding: 20px 0;
+        border-block: 1px solid rgba(60, 60, 59, 0.1);
+    }
+
+    .check_block {
+        user-select: none;
+        .check_button {
+            * {
+                cursor: pointer;
+            }
+            padding: 10px 0 5px 0;
+            display: flex;
+            gap: 10px;
+
+            label {
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            .box_button {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+$first_text: #3c3c3b;
+$second_text: #a1a0a0;
+$second_color: #f0ba4e;
+$new: #08c785;
+$discount: #fa5d69;
+
+@mixin border_style($border_radius, $padding_block, $padding_line, $back_color, $text_color) {
+    border-radius: $border_radius;
+    padding: $padding_block $padding_line;
+    border: 1px solid $second_color;
+    background-color: $back_color;
+    color: $text_color;
+    span {
+        color: $text_color;
+    }
+}
+
+@mixin border_style_hover($time, $back_color, $text_color) {
+    span {
+        transition: $time;
+    }
+    transition: $time;
+
+    &:hover {
+        background-color: $back_color;
+        span {
+            color: $text_color;
+        }
+    }
+}
+
+@mixin input_style($border_radius, $p_top, $p_right, $p_bottom, $p_left, $color_text) {
+    background: none;
+    border: none;
+    border-radius: $border_radius;
+    padding: $p_top $p_right $p_bottom $p_left;
+    color: $color_text;
+    border: 1px solid $second_color;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+.desc-small {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.title_name {
+    font-weight: 600;
+    font-size: 28px;
+    color: $first_text;
+}
+
+.shadow-big {
+    box-shadow: 0 20px 50px 0 rgba(60, 60, 59, 0.07);
+}
+
+.shadow-small {
+    box-shadow: 0 20px 50px 0 rgba(60, 60, 59, 0.07);
+}
+
+.shadow-card {
+    box-shadow: 0 20px 50px 0 rgba(18, 17, 39, 0.08);
+}
+
+.shadow-circle {
+    border-radius: 36px;
+    box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.07);
+}
+
+.card__mini-page-size {
+    width: 420px;
+    height: 200px;
+}
+
+.card_block-swipe {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 15px;
+    right: 15px;
+
+    gap: 10px;
+}
+
+.card_btn_swipe {
+    display: flex;
+    align-items: center;
+
+    transition: 0.3s;
+
+    path {
+        transition: 0.3s;
+    }
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid $second_color;
+    padding: 15px 9px;
+}
+
+.page_desc {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3c3c3b;
+}
+
+.title_h2 {
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #3c3c3b;
+}
+
+.title_section {
+    font-weight: 500;
+    font-size: 28px;
+    color: #000;
+}
+
+.desc-tran {
+    font-weight: 400;
+    font-size: 20px;
+    color: #a1a0a0;
+}
+
+.second-text {
+    font-weight: 600;
+    font-size: 18px;
+    color: $second_color;
+}

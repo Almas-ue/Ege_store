@@ -1,0 +1,40 @@
+@import "./../../style/var.scss";
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 55px;
+
+    background-color: #f6f6f6;
+    overflow: hidden;
+    position: relative;
+
+    .work__link {
+        width: 100%;
+
+        &:hover {
+            .work__link-inner {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .work__block {
+        padding: 28px;
+
+        .work__title {
+            margin-bottom: 15px;
+        }
+
+        .work__desc {
+            margin-bottom: 100px;
+        }
+    }
+
+    .work__block-image {
+        position: absolute;
+        top: -310px;
+        right: 15px;
+    }
+}

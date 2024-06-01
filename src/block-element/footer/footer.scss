@@ -1,0 +1,78 @@
+@import "./../../style/var.scss";
+
+.footer {
+    background-color: #4b565e;
+    padding: 32px 0;
+
+    .footer_top {
+        display: flex;
+        justify-content: space-between;
+
+        .footer_info {
+            .contact {
+                display: flex;
+                gap: 56px;
+                padding-top: 32px;
+                .contact_info {
+                    display: flex;
+                    align-items: start;
+                    gap: 12px;
+
+                    .text_info {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        .contact_call {
+                            font-weight: 400;
+                            font-size: 12px;
+                            color: #fff;
+                            opacity: 0.6;
+                        }
+                        .info_contact {
+                            font-weight: 500;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer_contact_mail {
+            .footer_contact_mail_inner {
+                max-width: 535px;
+
+                .question_text {
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+
+                .desc_text_question {
+                    opacity: 0.6;
+                    font-weight: 300;
+                    font-size: 14px;
+                    margin-top: 12px;
+                    margin-bottom: 32px;
+                }
+
+                .form {
+                    @include input_style(30px, 6px, 6px, 6px, 24px, $second_color);
+                    display: inline-flex;
+                    justify-content: space-between;
+                    #mail {
+                        color: #fff;
+                        outline: none;
+                        background: none;
+                        border: none;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                    .send {
+                        @include border_style(30px, 12px, 19.5px, $second_color, #fff);
+                        font-weight: 700;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@import "./../../style/var.scss";
+
+.main {
+    .block_pages {
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .page_link {
+            font-weight: 400;
+            font-size: 16px;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: $second_text;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .product {
+        margin-top: 28px;
+
+        * {
+            color: $first_text;
+        }
+        .title_category {
+            padding: 10px 0;
+        }
+        display: flex;
+
+        .product_content {
+            width: 100%;
+            .setting_product {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .setting_content {
+                .sort_setting {
+                    padding: 13px 0 28px 0;
+                    display: flex;
+                    gap: 15px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid $second_text;
+                    .title_sort {
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: $first_text;
+                    }
+
+                    #name_sort {
+                        color: $second_text;
+                        cursor: pointer;
+
+                        &::after {
+                            content: url("./../../../public/setting_content_product/Polygon.svg");
+                            margin-left: 14px;
+                            transition: 0.3s;
+                            display: inline-block;
+                        }
+
+                        &:hover {
+                            .setting_content {
+                                transform: rotate(180deg);
+                            }
+                            &::after {
+                                transform: rotate(180deg);
+                            }
+                        }
+                    }
+                }
+            }
+            .setting_show {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+
+                .show_text {
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+
+            .card_product {
+                margin-top: 28px;
+
+                .card {
+                    display: inline-block;
+                    background-color: #fff;
+                    box-shadow: 0 20px 50px 0 rgba(18, 17, 39, 0.08);
+
+                    .inner_card {
+                        position: relative;
+                        padding: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

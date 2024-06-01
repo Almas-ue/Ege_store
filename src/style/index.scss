@@ -1,0 +1,41 @@
+@import "./var.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-family: Inter;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.res-txt-btn{
+    display: flex;
+    align-items: start;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}

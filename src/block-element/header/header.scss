@@ -1,0 +1,175 @@
+@import "./../../style/var.scss";
+
+.flex_block {
+    display: flex;
+}
+
+.header {
+
+    .header_top {
+        padding: 16px 0;
+        background-color: #4b565e;
+
+        .flex_block {
+            justify-content: space-between;
+
+            .header_top_first {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                .nav {
+                    .list {
+                        display: flex;
+                        gap: 24px;
+                        .item {
+                            .link_item {
+                                color: #fff;
+                                font-weight: 600;
+                                font-size: 16px;
+                                transition: 0.3s;
+
+                                &:hover {
+                                    color: $second_text;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .header_top_second {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                .tel_info {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .num_phone {
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+                }
+
+                .basket_text {
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+
+                .basket {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    @include border_style(50px, 10px, 20px, Transparent, #fff);
+                    @include border_style_hover(0.3s, $second_color, #000);
+                }
+            }
+        }
+    }
+
+    .header_bottom {
+        background-color: $second_color;
+        padding: 12px 0;
+
+        .flex_block {
+            justify-content: space-between;
+
+            .header_bottom_first {
+                .menu {
+                    .list_menu {
+                        display: flex;
+                        align-items: center;
+                        gap: 24px;
+
+                        .item {
+                            .button_menu {
+                                display: flex;
+                                align-items: center;
+                                gap: 10px;
+                                color: $first_text;
+
+                                svg {
+                                    path {
+                                        transition: 0.3s;
+                                    }
+                                }
+                            }
+
+                            .link_item {
+                                color: $first_text;
+                                font-weight: 600;
+                                font-size: 14px;
+
+                                transition: 0.3s;
+
+                                &:hover {
+                                    color: $second_text;
+
+                                    path {
+                                        fill: $second_text;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .header_bottom_second {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .find_product {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    input {
+                        border: none;
+                        background: none;
+                        border-bottom: 1px solid $first_text;
+                        padding: 0 0 6px 0;
+                        width: 400px;
+                        outline: none;
+                    }
+
+                    &::after {
+                        content: "";
+                        background: url("../../../public/header/Seacrh.svg");
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                .button_location {
+                    display: flex;
+                    gap: 5px;
+                    border: none;
+                    background: none;
+                    cursor: pointer;
+
+                    .location_city {
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #fff;
+                        line-height: 100%;
+                        transition: 0.3s;
+                    }
+
+                    &:hover {
+                        .location_city {
+                            color: $second_text;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
