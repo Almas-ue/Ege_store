@@ -10,7 +10,7 @@ function Aside() {
           <ul className="list_category">
             <li className="item_category">
               <a href="#" className="link_category">
-                <img src="./public/category/stroi.svg" alt="Стройматериалы" />{" "}
+                <img src="category/stroi.svg" alt="Стройматериалы" />{" "}
                 Стройматериалы
               </a>
             </li>
