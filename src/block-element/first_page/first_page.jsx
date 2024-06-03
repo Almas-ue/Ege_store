@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
@@ -13,12 +12,6 @@ import "./first_page.scss";
 function First_page() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/Glav" element={<Glav />} />
-        </Routes>
-      </Router>
-
       <Header />
       <main className="main">
         <section className="hero">
@@ -37,10 +30,7 @@ function First_page() {
           <section className="info_service">
             <div className="service__item">
               <div className="service__logo">
-                <img
-                  src="./first_page/info-service/Wall.svg"
-                  alt="Wall"
-                />
+                <img src="./first_page/info-service/Wall.svg" alt="Wall" />
               </div>
               <div className="service__text">
                 <p className="service__desc">
@@ -63,10 +53,7 @@ function First_page() {
             </div>
             <div className="service__item">
               <div className="service__logo">
-                <img
-                  src="./first_page/info-service/like.svg"
-                  alt="like"
-                />
+                <img src="./first_page/info-service/like.svg" alt="like" />
               </div>
               <div className="service__text">
                 <p className="service__desc">

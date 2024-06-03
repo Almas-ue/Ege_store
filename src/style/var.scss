@@ -40,6 +40,14 @@ $discount: #fa5d69;
     border: 1px solid $second_color;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 .d-flex {
     display: flex;
 }

@@ -5,26 +5,4 @@
     .popular__block-title {
         justify-content: space-between;
     }
-
-    .popular__product {
-        display: flex;
-        gap: 30px;
-        overflow: hidden;
-        transition: 0.7s;
-        scroll-behavior: smooth;
-
-        .left-btn {
-            position: absolute;
-            top: 50%;
-            left: -40px;
-            z-index: 2;
-        }
-
-        .right-btn {
-            position: absolute;
-            top: 50%;
-            right: -40px;
-            z-index: 2;
-        }
-    }
 }

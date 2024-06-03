@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "./pages.scss";
 
 function Pages() {
@@ -13,7 +14,7 @@ function Pages() {
         </div>
         <div className="group__catalog d-flex">
           <div className="big_card">
-            <a href="./Glav" className="catalog_big shadow-big d-block">
+            <Link to="glav" className="catalog_big shadow-big d-block">
               <h3 className="title_card-name title_name ">
                 Строительный отделочный <br /> инструмент
               </h3>
@@ -24,7 +25,7 @@ function Pages() {
                   className="image_card"
                 />
               </div>
-              <button className="card_block-swipe">
+              <div className="card_block-swipe">
                 <p className="card_text-swipe page_desc">Перейти в каталог</p>
                 <button className="card_btn_swipe circle">
                   <svg width="21" height="8" viewBox="0 0 21 8" fill="none">
@@ -34,12 +35,12 @@ function Pages() {
                     />
                   </svg>
                 </button>
-              </button>
-            </a>
+              </div>
+            </Link>
           </div>
           <div className="catalog_group-small d-flex">
-            <a
-              href="#"
+            <Link
+              to="glav"
               className="catalog_small card__mini-page-size d-block shadow-small"
             >
               <h3 className="title_name text_right">Эмали</h3>
@@ -57,9 +58,9 @@ function Pages() {
                   </svg>
                 </button>
               </div>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="glav"
               className="catalog_small card__mini-page-size d-block shadow-small"
             >
               <h3 className="title_name">
@@ -79,9 +80,9 @@ function Pages() {
                   </svg>
                 </button>
               </div>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="glav"
               className="catalog_small card__mini-page-size d-block shadow-small"
             >
               <h3 className="title_name">
@@ -101,9 +102,9 @@ function Pages() {
                   </svg>
                 </button>
               </div>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="glav"
               className="catalog_small card__mini-page-size d-block shadow-small"
             >
               <h3 className="title_name">Розетки и выключатели</h3>
@@ -121,7 +122,7 @@ function Pages() {
                   </svg>
                 </button>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

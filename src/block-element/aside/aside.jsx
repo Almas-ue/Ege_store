@@ -10,7 +10,7 @@ function Aside() {
           <ul className="list_category">
             <li className="item_category">
               <a href="#" className="link_category">
-                <img src="category/stroi.svg" alt="Стройматериалы" />{" "}
+                <img src="./public/category/stroi.svg" alt="Стройматериалы" />{" "}
                 Стройматериалы
               </a>
             </li>
@@ -22,16 +22,12 @@ function Aside() {
             </li>
             <li className="item_category">
               <a href="#" className="link_category">
-                <img src="category/electric.svg" alt="Электрика" />{" "}
-                Электрика
+                <img src="category/electric.svg" alt="Электрика" /> Электрика
               </a>
             </li>
             <li className="item_category">
               <a href="#" className="link_category">
-                <img
-                  src="category/Interier.svg"
-                  alt="Интерьер и отделка"
-                />{" "}
+                <img src="category/Interier.svg" alt="Интерьер и отделка" />{" "}
                 Интерьер и отделка
               </a>
             </li>
@@ -46,7 +42,7 @@ function Aside() {
               name="box_button"
               id="novelty"
             />{" "}
-            <label for="novelty">Новинки</label>
+            <label htmlFor="novelty">Новинки</label>
           </div>
           <div className="check_button">
             <input
@@ -55,7 +51,7 @@ function Aside() {
               name="box_button"
               id="discount"
             />
-            <label for="discount">Скидки</label>
+            <label htmlFor="discount">Скидки</label>
           </div>
         </div>
       </aside>

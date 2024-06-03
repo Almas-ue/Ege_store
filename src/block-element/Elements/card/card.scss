@@ -42,7 +42,6 @@
     margin-top: 28px;
     display: inline-block;
     padding: 24px;
-    margin-bottom: 90px;
 
     .card__inner {
         position: relative;
@@ -55,6 +54,23 @@
                 position: absolute;
                 top: 0;
                 right: 0;
+
+                svg {
+                    transition: 0.3s;
+
+                    path {
+                        transition: 0.3s;
+                    }
+                }
+
+                &:hover {
+                    svg {
+                        path {
+                            fill: $discount;
+                            stroke: $discount;
+                        }
+                    }
+                }
             }
         }
 
@@ -84,6 +100,11 @@
             .button-busket {
                 .btn_busket {
                     @include border_style(55px, 14px, 28px, transparent, $first_text);
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: $second-color;
+                    }
                 }
             }
         }

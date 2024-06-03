@@ -11,9 +11,9 @@ function Work() {
             <p className="work__desc desc-tran">
               Инструмент для вашего бизнеса, разнообразных марок
             </p>
-            <a href="#" className="work__link-inner second-text">
+            <div href="#" className="work__link-inner second-text">
               Перейти в каталог
-            </a>
+            </div>
           </div>
           <div className="work__block-image">
             <img src="./work/man_stroi.svg" alt="man_stroi" />

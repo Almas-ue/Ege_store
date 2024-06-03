@@ -85,17 +85,12 @@
 
             .card_product {
                 margin-top: 28px;
+                display: flex;
+                flex-wrap: wrap;
 
-                .card {
-                    display: inline-block;
-                    background-color: #fff;
-                    box-shadow: 0 20px 50px 0 rgba(18, 17, 39, 0.08);
-
-                    .inner_card {
-                        position: relative;
-                        padding: 24px;
-                    }
-                }
+                justify-content: flex-start;
+                gap: 20px;
+                margin-bottom: 20px;
             }
         }
     }
