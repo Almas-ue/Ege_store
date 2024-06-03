@@ -17,19 +17,19 @@ function Header() {
               <nav className="nav">
                 <ul className="list">
                   <li className="item">
-                    <a href="#" className="link_item">
+                    <Link to="//" className="link_item">
                       Главная
-                    </a>
+                    </Link>
                   </li>
                   <li className="item">
-                    <a href="#" className="link_item">
+                    <Link to="/map" className="link_item">
                       О компании
-                    </a>
+                    </Link>
                   </li>
                   <li className="item">
-                    <a href="#" className="link_item">
+                    <Link to="/glav" className="link_item">
                       Каталог
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>

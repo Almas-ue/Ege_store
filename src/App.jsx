@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Glav from "./block-element/glav/Glav.jsx";
 import First_page from "./block-element/first_page/first_page";
 import Heart from "./block-element/heart/heart.jsx";
+import Map from "./block-element/map/map.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route path="/" element={<First_page />} />
         <Route path="/glav" element={<Glav />} />
         <Route path="/heart" element={<Heart />} />
+        <Route path="/map" element={<Map />} />
       </Routes>
     </Router>
   );
