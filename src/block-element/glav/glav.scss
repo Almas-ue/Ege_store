@@ -1,23 +1,7 @@
 @import "./../../style/var.scss";
 
 .main {
-    .block_pages {
-        margin-top: 28px;
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        .page_link {
-            font-weight: 400;
-            font-size: 16px;
-            text-decoration: underline;
-            text-decoration-skip-ink: none;
-            color: $second_text;
 
-            &:hover {
-                text-decoration: none;
-            }
-        }
-    }
 
     .product {
         margin-top: 28px;

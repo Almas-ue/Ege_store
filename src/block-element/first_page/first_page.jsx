@@ -60,8 +60,8 @@ function First_page() {
                   Многоуровневая{" "}
                   <span className="black">
                     система <br /> управления качеством
-                  </span>
-                  по стандарту <br /> ISO 9001
+                  </span> 
+                  {" "}по стандарту <br /> ISO 9001
                 </p>
               </div>
             </div>

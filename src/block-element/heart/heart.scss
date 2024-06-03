@@ -1,0 +1,57 @@
+@import "./../../style/var.scss";
+
+.heart {
+    flex: 1;
+
+    .heart__block {
+        margin-top: 28px;
+
+        .heart__header {
+            gap: 16px;
+
+            .title_second {
+                color: $second-text;
+            }
+        }
+
+        .heart__products {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-block: 30px;
+        }
+
+        .item-product {
+            padding: 24px;
+
+            .product-text {
+                margin-left: 16px;
+                .block-price {
+                    padding-block: 31px;
+
+                    .card__price {
+                        margin-bottom: 6px;
+                    }
+                }
+
+                .set-count {
+                    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.25);
+                    width: 115px;
+                    justify-content: space-around;
+                    padding-block: 6px;
+
+                    .count {
+                        font-size: 18px;
+                    }
+
+                    .minus {
+                        font-size: 32px;
+                    }
+                    .plus {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

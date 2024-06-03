@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.scss";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -38,14 +39,10 @@ function Header() {
                 <img src="header/Phone.svg" alt="Телефон" />
                 <span className="num_phone">+7 (965) 084-29-29</span>
               </a>
-              <a href="" className="heart-link">
-                <img
-                  src="header/heart.svg"
-                  alt="Избранные"
-                  className="heart"
-                />
-              </a>
-              <a href="" className="basket">
+              <Link to="/heart" className="heart-link">
+                <img src="header/heart.svg" alt="Избранные" className="heart" />
+              </Link>
+              <a href="#" className="basket">
                 <img src="header/basket.svg" alt="Корзина" />
                 <span className="basket_text">Пусто</span>
               </a>
@@ -64,7 +61,6 @@ function Header() {
                         height="24"
                         viewBox="0 0 16 24"
                         fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
                           fillRule="evenodd"
@@ -122,13 +118,7 @@ function Header() {
               </div>
               <div className="location">
                 <button className="button_location">
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                     <path
                       d="M10.5 5C10.5 8.5 6 11.5 6 11.5C6 11.5 1.5 8.5 1.5 5C1.5 3.80653 1.97411 2.66193 2.81802 1.81802C3.66193 0.974106 4.80653 0.5 6 0.5C7.19347 0.5 8.33807 0.974106 9.18198 1.81802C10.0259 2.66193 10.5 3.80653 10.5 5Z"
                       stroke="#4B565E"

@@ -56,6 +56,10 @@ $discount: #fa5d69;
     align-items: center;
 }
 
+.content-between {
+    justify-content: space-between;
+}
+
 .d-block {
     display: block;
 }
@@ -98,6 +102,10 @@ $discount: #fa5d69;
 .shadow-circle {
     border-radius: 36px;
     box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.07);
+}
+
+.shadow-width {
+    box-shadow: 0 20px 50px 0 rgba(18, 17, 39, 0.08);
 }
 
 .card__mini-page-size {
